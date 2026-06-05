@@ -6,7 +6,7 @@
  *
  *  ---- OOP CONCEPTS DEMONSTRATED HERE  ----
  *
- *  1. ABSTRACTION 
+ *  1. ABSTRACTION
  *     We expose simple, intent-revealing methods (`tap`, `type`, `getText`)
  *     and HIDE the messy Appium/WDIO details (waitForExist, scrollIntoView,
  *     keyboard handling, retries, logging, allure step recording).

@@ -4,7 +4,7 @@
  * ----------------------------------------------------------------------------
  *  This is the OOP foundation. EVERY page class in our app extends this.
  *
- *  ---- OOP CONCEPTS DEMONSTRATED HERE ----
+ *  ---- OOP CONCEPTS DEMONSTRATED HERE  ----
  *
  *  1. ABSTRACTION
  *     We expose simple, intent-revealing methods (`tap`, `type`, `getText`)

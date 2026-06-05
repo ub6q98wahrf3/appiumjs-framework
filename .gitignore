@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Generated artifacts
+reports/
+screenshots/
+logs/
+allure-report/
+allure-results/
+
+# Mobile app binaries (download via README, don't commit)
+apps/android/*.apk
+apps/ios/*.app
+apps/ios/*.ipa
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Coverage
+coverage/

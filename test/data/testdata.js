@@ -3,7 +3,7 @@
  *  TEST DATA  -  centralized, environment-aware
  * ----------------------------------------------------------------------------
  *  Why a separate file?
- *    1. Data-driven test just import this and iterate
+ *    1. Data-driven tests just import this and iterate
  *    2. Updating a password = 1 file change, not 50
  *    3. Sensitive values can be overridden via env vars without touching code
  *    4. Different envs (dev/staging/prod) can use different fixtures

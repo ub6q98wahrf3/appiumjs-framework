@@ -26,7 +26,7 @@
  */
 
 import BasePage from './base.page.js';
-import { selectFor } from '../utils/platform.js';
+import {selectFor} from '../utils/platform.js';
 import { hideKeyboard } from '../utils/gestures.js';
 import logger from '../utils/logger.js';
 

@@ -27,7 +27,7 @@
  * Returns true if tests are running on Android.
  * Reads from the WDIO `browser` (driver) capabilities.
  */
-export function isAndroid() {
+export function isAndroid()  {
     return browser.isAndroid;
 }
 

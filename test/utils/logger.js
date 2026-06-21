@@ -18,7 +18,7 @@ import fs from 'fs';
 const logsDir = './logs';
 if (!fs.existsSync(logsDir)) fs.mkdirSync(logsDir, { recursive: true });
 
-const { combine, timestamp, printf, colorize, errors } = winston.format;
+const { combine, timestamp, printf, colorize, errors} = winston.format;
 
 const customFormat = printf(({ level, message, timestamp: ts, stack }) => {
     return `${ts} [${level}] ${stack || message}`;

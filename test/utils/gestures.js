@@ -61,7 +61,7 @@ export async function swipeLeft(percentage = 0.5) {
 /**
  * Swipe right.
  */
-export async function swipeRight(percentage = 0.5) {
+export async function swipeRight(percentage = 0.5) { 
     const { width, height } = await browser.getWindowSize();
     const startX = Math.floor(width * 0.2);
     const endX = Math.floor(width * (0.2 + percentage));

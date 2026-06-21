@@ -1,5 +1,4 @@
-# 📱 Appium Mobile Automation Framework //version from develop
-
+# 📱 Appium Mobile Automation Framework
 A production-grade mobile automation framework built on **WebdriverIO + Appium** for **native** Android and iOS apps.
 
 > Designed to be readable by every QA engineer on the team.
